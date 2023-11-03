@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <div class="container d-flex justify-content-center align-items-center"> -->
+    <div class="container mt-3">
+        
+        <div class="outline">
+            <div class="display">
+                <div class="row">
+                    <div class=" firstinputfield col-12 col-lg-10 col-md-12 col-sm-12">
+                        <input type="text" placeholder="0" id="result">
+                    </div>
+                    <div class="branding col-12 col-lg-2 col-md-12 col-sm-12">
+                        <span> CT-512</span>
+                    </div>
+                </div>
+            </div>
+            <div class="more">
+                <div class="row">
+                    <div class="firstMore text-center d-flex align-items-center justify-content-center col-12 col-lg-2"><span id="cheak">Cheak</span></div>
+                    <div class="secondMore text-center d-flex align-items-center justify-content-center col-12 col-lg-2"><button onclick="delet()">Delete</button></div>
+                    <!-- <div class="thirdMore col-12 col-lg-8">solar</div> -->
+                </div>
+            </div>
+            <div class="everyting d-grid">
+                <!-- <button onclick="clearScreen()">AC</button>
+                <button onclick="delet()">DL</button> -->
+                
+                <button class="btnn" onclick="display('7')">7</button>
+                <button class="btnn" onclick="display('8')">8</button>
+                <button class="btnn" onclick="display('9')">9</button>
+                <button class="btnn" onclick="display('*')">x</button>
+                <button class="btnn" onclick="display('4')">4</button>
+                <button class="btnn" onclick="display('5')">5</button>
+                <button class="btnn" onclick="display('6')">6</button>
+                <button class="btnn" onclick="display('/')">/</button>
+                <button class="btnn" onclick="display('1')">1</button>
+                <button class="btnn" onclick="display('2')">2</button>
+                <button class="btnn" onclick="display('3')">3</button>
+                <button class="btnn plus" onclick="display('+')">+</button>
+                <button class="btnn" onclick="display('0')">0</button>
+                <button class="btnn" onclick="display('00')">00</button>
+                <button class="btnn" onclick="display('.')">.</button>
+                
+                <button class="btnn" onclick="display('(')"> ( </button>
+                <button class="btnn" onclick="display(')')"> ) </button>
+                <button class="btnn" onclick="display('%')">%</button>
+                <button class="btnn" onclick="display('-')">-</button>
+                <button class="btnn clear" onclick = "clearScreen()">AC</button>
+
+                <button class="btnn equal" onclick="calculate()">=</button>
+
+
+
+
+            </div>
+        </div>
+        <h2 class="alrt mt-2">I did't set any Functionlity on this button ! SORRY !</h2>
+    </div>
+
+
+
+    <footer>
+        <h1 class=" footTxt text-center "> <img href="" class=" img-fluid prfpic" src="/DocScanner Dec 20, 2022 11-18 AM.jpg" alt="prfpic"> Task 02: Calculator</h1>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+</body>
+
+</html>
